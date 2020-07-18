@@ -1,5 +1,3 @@
-# https://github.com/elastic/elasticsearch-docker
-FROM docker.elastic.co/elasticsearch/elasticsearch-oss:6.2.1
+FROM elasticsearch:7.8.0
 
-# Add your elasticsearch plugins setup here
-# Example: RUN elasticsearch-plugin install analysis-icu
+# Add your plugins here

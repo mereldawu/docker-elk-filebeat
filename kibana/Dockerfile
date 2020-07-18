@@ -1,5 +1,3 @@
-# https://github.com/elastic/kibana-docker
-FROM docker.elastic.co/kibana/kibana-oss:6.2.1
+FROM elastic/kibana:7.8.0
 
-# Add your kibana plugins setup here
-# Example: RUN kibana-plugin install <name|url>
+# Add your plugins here
